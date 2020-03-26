@@ -1,0 +1,29 @@
+﻿如何使用？
+由于主题包内引用了外部文件，需要根据你的实际情况修改一下，
+
+将 theme 文件夹放在网站根目录.（或者别的地方，可以引用就好）
+
+找到 nexmoe 下 layout.php 使用 notepad++ 打开（或者其他的编辑器，不建议使用记事本。）
+
+修改 第7行 、第9行 第18行 yun.zhebk.cn 为自己域名（或者自己引用的目录）
+
+修改 第15行 945203919 为自己QQ（或者自己引用的图片）
+
+打开 theme 下 style.css 文件
+
+修改 第97行、第103行 yun.zhebk.cn 为自己域名（或者自己引用的目录）
+
+请删除原有 nexmoe 主题文件夹，将压缩包内 nexmoe 复制到该位置。
+
+使用前请阅读相关条约。https://yun.zhebk.cn/WebProject/
+
+
+
+	<!--设置背景图片-->
+	<style>
+	body{background: url(https://s0.xinger.ink/fj/fjurl.php);
+	    opacity:0.7;
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+	}
+	</style>
